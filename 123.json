@@ -39,47 +39,47 @@
       {
         "id": "111",
         "name": "V1",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 1
+        "category": 2
       },
       {
         "id": "112",
         "name": "V2",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 1
+        "category": 2
       },
       {
         "id": "121",
         "name": "E1",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 1
+        "category": 2
       },
       {
         "id": "122",
         "name": "E2",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 1
+        "category": 2
       },
       {
         "id": "131",
         "name": "Q1",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 1
+        "category": 2
       }
     ],
     "links": [
