@@ -1,0 +1,247 @@
+{
+	"nodes": [{
+			"id": "0",
+			"name": "MDT",
+			"symbolSize": 10,
+			"x": -266.82776,
+			"y": 299.6904,
+			"value": 3.4,
+			"category": 1
+		},
+		{
+			"id": "1",
+			"name": "天线工参",
+			"symbolSize": 5,
+			"x": -418.08344,
+			"y": 446.8853,
+			"value": 0.5,
+			"category": 1
+		},
+		{
+			"id": "2",
+			"name": "天馈障碍问题点",
+			"symbolSize": 30,
+			"x": -212.76357,
+			"y": 245.29176,
+			"value": 9.485714,
+			"category": 0
+		},
+		{
+			"id": "3",
+			"name": "4/5G流量行为",
+			"symbolSize": 5,
+			"x": -242.82404,
+			"y": 235.26283,
+			"value": 1.2,
+			"category": 2
+		},
+		{
+			"id": "4",
+			"name": "5G开关",
+			"symbolSize": 5,
+			"x": -379.30386,
+			"y": 429.06424,
+			"value": 0.9,
+			"category": 1
+		},
+		{
+			"id": "5",
+			"name": "5G终端",
+			"symbolSize": 5,
+			"x": -417.26337,
+			"y": 406.03506,
+			"value": 0.6,
+			"category": 2
+		},
+		{
+			"id": "6",
+			"name": "。。。",
+			"symbolSize": 5,
+			"x": -332.6012,
+			"y": 485.16974,
+			"value": 0.1,
+			"category": 2
+		},
+		{
+			"id": "7",
+			"name": "单用户5G标签",
+			"symbolSize": 10,
+			"x": -382.69568,
+			"y": 475.09113,
+			"value": 0.7,
+			"category": 2
+		},
+		{
+			"id": "8",
+			"name": "扇区级B域标签",
+			"symbolSize": 10,
+			"x": -320.384,
+			"y": 387.17325,
+			"value": 0.5,
+			"category": 2
+		},
+		{
+			"id": "9",
+			"name": "扇区级别性能",
+			"symbolSize": 10,
+			"x": -320.384,
+			"y": 387.17325,
+			"value": 0.5,
+			"category": 1
+		},
+		{
+			"id": "10",
+			"name": "扇区排序规则",
+			"symbolSize": 20,
+			"x": -320.384,
+			"y": 387.17325,
+			"value": 0.1,
+			"category": 3
+		},
+		{
+			"id": "11",
+			"name": "优先级过滤",
+			"symbolSize": 30,
+			"x": -320.384,
+			"y": 387.17325,
+			"value": 4,
+			"category": 0
+		},
+		{
+			"id": "12",
+			"name": "分公司包区",
+			"symbolSize": 5,
+			"x": -344.39832,
+			"y": 451.16772,
+			"value": 0,
+			"category": 1
+		},
+		{
+			"id": "13",
+			"name": "日处理数量",
+			"symbolSize": 5,
+			"x": -89.34107,
+			"y": 234.56128,
+			"value": 0,
+			"category": 1
+		},
+		{
+			"id": "14",
+			"name": "已派单在流程",
+			"symbolSize": 5,
+			"x": -87.93029,
+			"y": -6.8120565,
+			"value": 0,
+			"category": 1
+		},
+		{
+			"id": "15",
+			"name": "分公司自定义派单规则",
+			"symbolSize": 20,
+			"x": -339.77908,
+			"y": -184.69139,
+			"value": 6.742859,
+			"category": 0.1
+		},
+		{
+			"id": "16",
+			"name": "天馈障碍派单",
+			"symbolSize": 30,
+			"x": -194.31313,
+			"y": 178.55301,
+			"value": 0.1,
+			"category": 0
+		}
+	],
+	"links": [{
+			"source": "0",
+			"target": "2"
+		},
+		{
+			"source": "1",
+			"target": "2"
+		},
+		{
+			"source": "3",
+			"target": "7"
+		},
+		{
+			"source": "4",
+			"target": "7"
+		},
+		{
+			"source": "5",
+			"target": "7"
+		},
+		{
+			"source": "6",
+			"target": "7"
+		},
+		{
+			"source": "8",
+			"target": "10"
+		},
+		{
+			"source": "9",
+			"target": "10"
+		},
+		{
+			"source": "2",
+			"target": "11"
+		},
+		{
+			"source": "10",
+			"target": "11"
+		},
+		{
+			"source": "12",
+			"target": "15"
+		},
+		{
+			"source": "13",
+			"target": "15"
+		},
+		{
+			"source": "14",
+			"target": "15"
+		},
+		{
+			"source": "15",
+			"target": "16"
+		},
+		{
+			"source": "11",
+			"target": "16"
+		},
+		{
+			"source": "13",
+			"target": "11"
+		},
+		{
+			"source": "14",
+			"target": "11"
+		},
+		{
+			"source": "15",
+			"target": "11"
+		},
+		{
+			"source": "17",
+			"target": "16"
+		},
+		{
+			"source": "18",
+			"target": "16"
+		}
+	],
+	"categories": [{
+			"name": "主流程"
+		},
+		{
+			"name": "O域数据"
+		},
+		{
+			"name": "B域数据"
+		}
+	]
+}
