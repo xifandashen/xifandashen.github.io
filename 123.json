@@ -352,25 +352,13 @@
     ],
     "categories": [
       {
-        "name": "A"
+        "name": "应用层"
       },
       {
-        "name": "B"
+        "name": "明细层"
       },
       {
-        "name": "C"
-      },
-      {
-        "name": "D"
-      },
-      {
-        "name": "E"
-      },
-      {
-        "name": "F"
-      },
-      {
-        "name": "G"
+        "name": "明细层"
       },
       {
         "name": "H"
