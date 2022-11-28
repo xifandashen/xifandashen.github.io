@@ -7,7 +7,7 @@
         "x": -87.93029,
         "y": -6.8120565,
         "value": 100,
-        "category": 1
+        "category": 0
       }, 
       {
         "id": "0",
@@ -16,7 +16,7 @@
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 0
+        "category": 1
       },
       {
         "id": "1",
@@ -25,7 +25,7 @@
         "x": -418.08344,
         "y": 446.8853,
         "value": 4,
-        "category": 0
+        "category": 1
       },
       {
         "id": "2",
@@ -39,16 +39,16 @@
     ],
     "links": [
       {
-        "source": "11",
-        "target": "0"
+        "source": "0",
+        "target": "11"
       },
       {
-        "source": "11",
-        "target": "1"
+        "source": "1",
+        "target": "11"
       },
       {
-        "source": "11",
-        "target": "2"
+        "source": "2",
+        "target": "11"
       }
     ],
     "categories": [
