@@ -1,7 +1,7 @@
 {
     "nodes": [
        {
-        "id": "11",
+        "id": "1",
         "name": "VEQ",
         "symbolSize": 66,
         "x": -87.93029,
@@ -10,16 +10,16 @@
         "category": 0
       }, 
       {
-        "id": "0",
+        "id": "11",
         "name": "投资价值(Value)",
         "symbolSize": 40,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
         "category": 1
-      },
+      },      
       {
-        "id": "1",
+        "id": "12",
         "name": "用户体验(Experience)",
         "symbolSize": 40,
         "x": -418.08344,
@@ -28,7 +28,7 @@
         "category": 1
       },
       {
-        "id": "2",
+        "id": "13",
         "name": "网络质量(quality)",
         "symbolSize": 40,
         "x": -212.76357,
@@ -36,20 +36,102 @@
         "value": 9.485714,
         "category": 1
       }
+      {
+        "id": "111",
+        "name": "V1",
+        "symbolSize": 40,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "112",
+        "name": "V2",
+        "symbolSize": 40,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "121",
+        "name": "E1",
+        "symbolSize": 40,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "122",
+        "name": "E2",
+        "symbolSize": 40,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 1
+      },
+      {
+        "id": "131",
+        "name": "Q1",
+        "symbolSize": 40,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 1
+      }
     ],
     "links": [
       {
-        "source": "0",
+        "source": "11",
+        "target": "1", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "12",
+        "target": "1", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "13",
+        "target": "1", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "111",
         "target": "11"
       },
       {
-        "source": "1",
+        "source": "112",
         "target": "11"
       },
       {
-        "source": "2",
+        "source": "113",
         "target": "11"
+      },
+      {
+        "source": "121",
+        "target": "12"
+      },
+      {
+        "source": "122",
+        "target": "12"
+      },
+      {
+        "source": "131",
+        "target": "13"
       }
+      
     ],
     "categories": [
       {
