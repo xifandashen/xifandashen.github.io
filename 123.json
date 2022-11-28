@@ -38,48 +38,48 @@
       },
       {
         "id": "111",
-        "name": "V1",
-        "symbolSize": 20,
+        "name": "晚忙时常驻用户数",
+        "symbolSize": 30,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 2
+        "category": 1
       },
       {
         "id": "112",
-        "name": "V2",
-        "symbolSize": 20,
+        "name": "晚忙时常驻用户流量",
+        "symbolSize": 30,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 2
+        "category": 1
       },
       {
         "id": "121",
-        "name": "E1",
-        "symbolSize": 20,
+        "name": "显性不满-近4个月投诉数",
+        "symbolSize": 30,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 2
+        "category": 1
       },
       {
         "id": "122",
-        "name": "E2",
-        "symbolSize": 20,
+        "name": "隐性不满-楼宇众测质差住址数",
+        "symbolSize": 30,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 2
+        "category": 1
       },
       {
         "id": "131",
-        "name": "Q1",
-        "symbolSize": 20,
+        "name": "连续4期RSRP不达标次数",
+        "symbolSize": 30,
         "x": -266.82776,
         "y": 299.6904,
         "value": 28.685715,
-        "category": 2
+        "category": 1
       }
     ],
     "links": [
