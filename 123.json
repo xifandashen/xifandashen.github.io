@@ -2,12 +2,39 @@
     "nodes": [
        {
         "id": "1",
-        "name": "VEQ",
+        "name": "VEQ评估",
         "symbolSize": 66,
         "x": -87.93029,
         "y": -6.8120565,
         "value": 100,
         "category": 0
+      }, 
+      {
+        "id": "2",
+        "name": "OpenAPI",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 3
+      }, 
+      {
+        "id": "3",
+        "name": "网翼渲染",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
+      }, 
+      {
+        "id": "4",
+        "name": "中屏可视化",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
       }, 
       {
         "id": "11",
@@ -130,6 +157,18 @@
       {
         "source": "131",
         "target": "13"
+      },
+      {
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "source": "2",
+        "target": "4"
       }
       
     ],
@@ -144,10 +183,10 @@
         "name": "明细层"
       },
       {
-        "name": "H"
+        "name": "能力开放"
       },
       {
-        "name": "I"
+        "name": "能力应用"
       }
     ]
   }
