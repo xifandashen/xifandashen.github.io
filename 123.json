@@ -155,7 +155,7 @@
       },
       {
         "id": "12221",
-        "name": "odso.prod_use_res_serv_daily_new",
+        "name": "O域产品使用资源服务信息表",
         "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
@@ -164,7 +164,7 @@
       },
       {
         "id": "12222",
-        "name": "odso.pub_address_daily",
+        "name": "O域标准地址表",
         "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
@@ -173,7 +173,7 @@
       },
       {
         "id": "12223",
-        "name": "odso.res_phy_dev_daily",
+        "name": "O域物理设备主表",
         "symbolSize": 20,
         "x": -266.82776,
         "y": 299.6904,
