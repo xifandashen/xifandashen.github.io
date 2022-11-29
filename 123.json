@@ -160,33 +160,45 @@
       },
       {
         "source": "1",
-        "target": "2"
+        "target": "2", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
       },
       {
         "source": "2",
-        "target": "3"
+        "target": "3", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
       },
       {
         "source": "2",
-        "target": "4"
+        "target": "4", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
       }
       
     ],
     "categories": [
       {
-        "name": "应用层"
+        "name": "数据应用层"
       },
       {
-        "name": "中间层"
+        "name": "数据中间层"
       },
       {
-        "name": "明细层"
+        "name": "数据明细层"
       },
       {
-        "name": "能力开放"
+        "name": "数据服务能力"
       },
       {
-        "name": "能力应用"
+        "name": "数据能力应用"
       }
     ]
   }
