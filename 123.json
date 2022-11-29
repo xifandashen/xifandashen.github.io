@@ -20,7 +20,7 @@
       }, 
       {
         "id": "3",
-        "name": "网翼渲染",
+        "name": "爱网优调度派单",
         "symbolSize": 66,
         "x": -87.93029,
         "y": -6.8120565,
@@ -29,7 +29,16 @@
       }, 
       {
         "id": "4",
-        "name": "中屏可视化",
+        "name": "网翼可视化渲染",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
+      }, 
+      {
+        "id": "5",
+        "name": "中屏可视化管控",
         "symbolSize": 66,
         "x": -87.93029,
         "y": -6.8120565,
@@ -177,6 +186,14 @@
       {
         "source": "2",
         "target": "4", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "2",
+        "target": "5", 
         "lineStyle": { 
                      "width": 5, 
                      "curveness": 0.2 
