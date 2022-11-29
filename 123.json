@@ -263,32 +263,32 @@
                      } 
       },
       {
-        "source": "122",
-        "target": "1221"
+        "source": "1221",
+        "target": "122"
       },
       {
-        "source": "122",
+        "source": "1222",
+        "target": "122"
+      },
+      {
+        "source": "1223",
+        "target": "122"
+      },
+      {
+        "source": "1224",
+        "target": "122"
+      },
+      {
+        "source": "12221",
         "target": "1222"
       },
       {
-        "source": "122",
-        "target": "1223"
+        "source": "12222",
+        "target": "1222"
       },
       {
-        "source": "122",
-        "target": "1224"
-      },
-      {
-        "source": "1222",
-        "target": "12221"
-      },
-      {
-        "source": "1222",
-        "target": "12222"
-      },
-      {
-        "source": "1222",
-        "target": "12223"
+        "source": "12223",
+        "target": "1222"
       } 
     ],
     "categories": [
