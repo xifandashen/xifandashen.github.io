@@ -118,6 +118,15 @@
         "category": 1
       },
       {
+        "id": "1211",
+        "name": "O域综调申告表",
+        "symbolSize": 20,
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 0
+      },
+      {
         "id": "1221",
         "name": "B域宽带产品表",
         "symbolSize": 20,
@@ -289,6 +298,10 @@
       {
         "source": "12223",
         "target": "1222"
+      } ,
+      {
+        "source": "1211",
+        "target": "121"
       } 
     ],
     "categories": [
