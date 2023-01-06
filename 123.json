@@ -46,6 +46,33 @@
         "category": 4
       }, 
       {
+        "id": "6",
+        "name": "工程翼立项建设",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
+      }, 
+      {
+        "id": "7",
+        "name": "智慧开站配置开通体检",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
+      }, 
+      {
+        "id": "8",
+        "name": "爱网优规建后评估",
+        "symbolSize": 66,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 4
+      }, 
+      {
         "id": "11",
         "name": "投资价值(Value)",
         "symbolSize": 40,
@@ -266,6 +293,38 @@
       {
         "source": "2",
         "target": "5", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "3",
+        "target": "6", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "6",
+        "target": "7", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "7",
+        "target": "8", 
+        "lineStyle": { 
+                     "width": 5, 
+                     "curveness": 0.2 
+                     } 
+      },
+      {
+        "source": "2",
+        "target": "8", 
         "lineStyle": { 
                      "width": 5, 
                      "curveness": 0.2 
