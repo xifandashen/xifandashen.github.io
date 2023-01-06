@@ -1,0 +1,108 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=graph-label-overlap&code=LYTwwgFghgTgLgOgM4QPYHcAyqoBMCWAdgOYAUAlANwCwAUACQLECmcAUgMoDyAcqQOQQ4cAA5IAXAHpJAD3wAzKIVxQUzQk3xwIAVwBGCfKkkBGAEwBmBACskqQvwA0AAnk7CAYzhHCz0sRgoEQhyZwBvOmdnUEhYRAh8XGZsPCIyKkjnVBFve2cAXnDMqO84ABtmcSLaKNrnOGYZOCr-QFEdQEQbQC5lADUAUQBFQEIrQGj1J2LapH0GppaAEWZFHTK4ZzKoEFQdODGauvrslr1UYVRgHb3Vhebnfhh8YiF-cYBfR3G4VFRl_BEqsNfxhUWMoqgBtcZRCK7C4qOBQKoBIIQBAeKANYioO7MJAIYBBUhuTy5XykKChKEXOowVg6GC-KAIQhQYDMGjQvbPcgQ5zPcYAXTe7KQzCxEmc4PZkO5JRAIkqN0RwXOlLWGy2LXkmI8zGVMLR8OciuRhFQSSQgspqyIAGsxUaEGUbebpc5UejMfhsQjAsEUWjmBjRRbKTAcMAqnAYDpmMGLms9Mwyn8XVEUBgI1GYynnCJUEgtD4WncHttY5TNTA8cIRS0wnpnk9JbUAU2ovHE5h1ptrhTLc4EkkuAA3EVrX71TMuluWpCoiqYfDALTJ1u1JeEKoABgQABYyxc8TIqmYp_vao7CMwOHAQBUV33XV9MS07LTtbrKR5aSPL0gxduLCnF0zyiCttXvPtqREJZ83sKoAA5N03U9mFwFgOBAYAjiTcV-A8fAYA8ConBuWBQ3QfgBRdZhgGCVR8DFXtLU1L8xX4PBrCgbVPBAD84yIK8bzvaoHyidBEm0KoTGQ1comeXkmwUuo-UyZ42SiGJoHgZBWC4HIfFIbJiQyWhOUoIA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    myChart.showLoading();
+$.getJSON('https://xifandashen.github.io/123.json', function (graph) {
+  myChart.hideLoading();
+  option = {
+    title: {
+      text: '居民区VEQ模型',
+      subtext: 'Default layout',
+      top: 'bottom',
+      left: 'right'
+    },
+    tooltip: {},
+    legend: [
+      {
+        data: graph.categories.map(function (a) {
+          return a.name;
+        })
+      }
+    ],
+    series: [
+      {
+        type: 'graph',
+        layout: 'force',
+        data: graph.nodes,
+        links: graph.links,
+        categories: graph.categories,
+        roam: true,
+        label: {
+          show: true,
+          position: 'right',
+          formatter: '{b}'
+        },
+        labelLayout: {
+          hideOverlap: true
+        },
+        scaleLimit: {
+          min: 0.4,
+          max: 2
+        },
+        lineStyle: {
+          color: 'source',
+          curveness: 0.3
+        }
+        ,
+        force: {
+          repulsion: 800
+        },edgeSymbol: ['circle', 'arrow'],
+        emphasis: {
+          focus: 'adjacency',
+          lineStyle: {
+            width: 10
+          }}
+      }
+    ]
+  };
+  myChart.setOption(option);
+});
+
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
